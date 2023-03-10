@@ -7,6 +7,15 @@
     <title>GrupProject</title>   
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
      <style>
+        .buton {
+        border: 0px;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        margin: 3px;
+        text-align: center;
+        color: white;
+      }
         .position {
             display: flex;
             justify-content: center;
@@ -19,6 +28,15 @@
         }
         .space {
             margin: 20px 0 20px;
+        }
+        .login{
+            background-color: rgb(79, 79, 255);
+        }
+        .google{
+            background-color: red;
+        }
+        .facebook{
+            background-color: blue;
         }
     </style>
 </head>
@@ -38,7 +56,11 @@
                 Emaail input
                 </div>
                 <div class="space">
-                Log in buttons
+                    <button class="buton login">Login</button>
+                 </div>
+                 <div class="space">
+                    <button class="buton google"><i class="bi bi-google"></i>   Login with Google</button>
+                    <button class="buton facebook"><i class="bi bi-facebook"></i>   Login with Facebook</button>
                  </div>
             </div>
         </div>

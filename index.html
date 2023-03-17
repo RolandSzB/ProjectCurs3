@@ -26,6 +26,26 @@
         .space {
             margin: 20px 0 20px;
         }
+
+
+        .welcome-image{
+         width: 50%;
+        }      
+        
+        .input{
+            border-radius: 15px;
+            border: 2px solid rgb(207, 206, 206);
+            height: 40px;
+            width: 200px;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        .size{
+            font-size: 36px;
+
         .login{
             background-color: rgb(79, 79, 255);
         }
@@ -34,24 +54,26 @@
         }
         .facebook{
             background-color: blue;
+
         }
     </style>
 </head>
 <body>
         <div class="position">
-            <div class="info">
-                Aici vom avea poza 
+            <div class="welcome-image">
+                <img src="dog.jpg" alt="dog" width="350" height="400"> 
             </div>
-            <div class="info">
-               <div class="space">
-                Welcome part
-                </div>
-                <div class="space">
-               Name input
+
+            <div class="form">
+               <div class="space center">
+                 <p class="size"> Welcome Back!</p>
+                <div class="space center"> 
+                    <input class="input" type="text"  name="input-text" value="Enter Email Address...">
                  </div>
-                <div class="space">
-                Emaail input
-                </div>
+                 <div class="space center"> 
+                    <input class="input" type="text"  name="input-text" value="Password">
+                 </div>
+  
                 <div class="space info">
                     <form>                        
                         <input type="checkbox" name="remember">
